@@ -1,0 +1,34 @@
+
+   
+'''# Input a number to check if it's Harshad
+num = int(input("Enter a number: "))
+
+# Calculate the sum of digits
+digit_sum = sum(int(digit) for digit in str(num))
+print(digit_sum)
+
+# Check if the number is divisible by the sum of its digits
+if num % digit_sum == 0:
+    print(f"{num} is a Harshad number.")
+else:
+    print(f"{num} is not a Harshad number.")'''
+    
+    
+
+num =int(input("Enter a number: "))
+
+a=[]
+for i in str(num):
+    i=int(i)
+    c=a.append(i)
+b=sum(a)
+print(b)
+if num%b==0:
+    print("harsher number")
+else:
+    print("it is not harshed number ")
+
+    
+    
+
+    

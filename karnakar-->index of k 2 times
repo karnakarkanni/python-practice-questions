@@ -1,0 +1,16 @@
+
+
+'''i= input("enter the string   ")
+s= input("index ")
+for index, character in enumerate(i):
+    if character.lower() == s.lower():
+        print(f"Index of '{s}' found at:", index)
+        '''
+        
+i= "Karnakar"
+s = 'k'
+
+for index in range(len(i)):
+    if i[index].lower() == s.lower():
+        print(f"Index of '{s}' found at:", index)
+

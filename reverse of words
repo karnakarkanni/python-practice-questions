@@ -1,0 +1,12 @@
+def r(i):
+    w = i.split()
+    if len(w) < 0:
+        return i
+    m= w[::-1]
+    k= ' '.join(m)
+    return k
+    
+    
+input_string = input("Enter a string: ")
+reversed= r(input_string)
+print("Reversed string:", reversed)

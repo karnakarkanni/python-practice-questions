@@ -1,0 +1,16 @@
+def h(x1,x2,x3,y1,y2,y3):
+    z=((x2-x1)**2)**1/2+((y2-y1)**2)**1/2
+    print(z)
+    x=((x3-x2)**2)**1/2+((y3-y2)**2)**1/2
+    y=((x1-x3)**2)**1/2+((y1-y3)**2)**1/2
+    print(round(x))
+    print(round(y))
+    print(round(x+y+z))
+#h(2,3,4,5,6,7)
+x1=int(input(""))
+x2=int(input(""))
+x3=int(input(""))
+y1=int(input(""))
+y2=int(input(""))
+y3=int(input(""))
+h(x1,x2,x3,y1,y2,y3)

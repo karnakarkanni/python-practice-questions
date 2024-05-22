@@ -1,0 +1,5 @@
+array=[]
+n=list(map(int,input("enter a number").split(',')))
+for i in  n:
+    array.append(i)
+print(max(array))

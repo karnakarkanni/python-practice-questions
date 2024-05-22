@@ -1,0 +1,7 @@
+def g(str):
+    if str==str[::-1]:
+        return "palindrom"
+    else:
+        return "not a palibdrim"
+result=g(input("enter a string"))
+print(result)

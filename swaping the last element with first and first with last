@@ -1,0 +1,27 @@
+'''def swapList(newList):
+    size = len(newList)
+     
+    # Swapping
+    temp = newList[0]
+    newList[0] = newList[size - 1]
+    newList[size - 1] = temp
+     
+    return newList
+     
+# Driver code
+newList = [12, 35, 9, 56, 24]
+ 
+print(swapList(newList))
+'''
+n=list(map(int,input("ente").split(",")))
+print(n)
+b=len(n)
+if b==len(n):
+    temp=n[0]
+    n[0]=n[b-1]
+    n[b-1]=temp
+    
+    temp=n[1]
+    n[1]=n[b-2]
+    n[b-2]=temp
+print(n)

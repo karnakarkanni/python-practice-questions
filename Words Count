@@ -1,0 +1,17 @@
+'''n=input('enter a strung')
+print(n[0])
+count=0
+for i in n:
+    if n[i]==n.isupper():
+        count+=1
+print(count)'''
+
+
+
+
+n=input('enter a strung')
+count = 0
+for i in n:
+    if i.isupper():
+        count +=1
+print(count)

@@ -1,0 +1,20 @@
+a=int(input("enter a number"))
+e=int(input("enter a number"))
+b=[]
+c=[]
+for i in range(1,a):
+    if a%i==0:
+        b.append(i)
+        
+b1=sum(b)       
+print(b1)
+for i in range(1,e):
+    if e%i==0:
+        c.append(i)
+c1=sum(c)
+print(c1)
+if b1%a==0 and c1%e==0:
+    print("yes this are Friendly Pair")
+else:
+    print("no this are not  Friendly Pair")
+

@@ -1,0 +1,12 @@
+s=input("enter a string")
+print(max(s))
+chh=max(s)
+ch1=input("enye a character which is replaced by ")
+char_map = str.maketrans({chh: ch1, ch1: chh})
+new_string = s.translate(char_map)
+print(new_string)
+
+
+
+        
+        

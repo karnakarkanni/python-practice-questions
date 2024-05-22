@@ -1,0 +1,40 @@
+a=[]
+e=[]
+o=[]
+n=int(input("enter a number"))
+for i in range(0,n):
+    number=int(input("enter number with {} of index value".format(i)))
+    a.append(number)
+    if a[i]%2==0:
+        e.append(a[i])
+    else:
+        o.append(a[i])
+e=sorted(e)
+print(e)
+o=sorted(o)
+print(o)
+print(e[1]+o[1])
+
+
+
+'''array = []
+evenArr = []
+oddArr = []
+n = int(input("Enter the size of the array:"))
+for i in range(0,n):
+    number = int(input("Enter Element at {} index:".format(i)))
+    array.append(number)
+    if array[i]% 2 == 0:
+        evenArr.append(array[i])
+    else:
+        oddArr.append(array[i])
+evenArr = sorted(evenArr)
+print("Sorted Even Array:", evenArr[0:len(evenArr)])
+oddArr = sorted(oddArr)
+print("Sorted Odd Array:", oddArr[0:len(oddArr)])
+print(evenArr[1] + oddArr[1])
+evenArr = sorted(evenArr)
+print("Sorted Even Array:", evenArr[0:len(evenArr)])
+oddArr = sorted(oddArr)
+print("Sorted Odd Array:", oddArr[0:len(oddArr)])
+print(evenArr[1] + oddArr[1])'''
