@@ -1,0 +1,20 @@
+def are_anagrams(str1, str2):
+    return sorted(str1) == sorted(str2)
+
+word1 = "karnakar"
+word2 = "marati"
+if are_anagrams(word1, word2):
+    print(f"{word1} and {word2} are anagrams!")
+else:
+    print(f"{word1} and {word2} are not anagrams.")
+
+
+def is_anagram(str1, str2):
+    return sorted(str1) == sorted(str2)
+
+# Example usage
+word1 = "karnakar"
+word2 = "karnakar"
+result = is_anagram(word1, word2)
+print(result)  # This will print True
+
