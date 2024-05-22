@@ -1,0 +1,9 @@
+def x(n,m):
+    if n%m==0:
+        return 0
+    else:
+        return 1
+n=int(input())
+m=int(input())
+result=x(n,m)
+print(result)
