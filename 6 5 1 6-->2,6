@@ -1,0 +1,15 @@
+
+a=list(map(int,input("enter").split(",")))
+b=max(a)
+m=a.count(b)
+print(b,m)
+'''
+
+  
+a= list(map(int, input ("enter").split(",")))
+m = max(a)
+
+co = a.count(m)
+
+print(a)
+print(m,co)'''

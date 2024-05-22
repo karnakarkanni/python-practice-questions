@@ -1,0 +1,12 @@
+a=int(input("number of numbers"))
+#b=int(input("nunbers"))
+n=list(map(int,input("enter the munber").split(",")))
+m=list(map(int,input("enter the number").split(",")))
+
+if a ==len(n) and len(m):
+        b=n+m
+        #print(b)
+else:
+        print("enter {} and values only".format(a))
+for i in b:
+    print(i)

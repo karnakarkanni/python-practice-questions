@@ -1,0 +1,13 @@
+a=int(input("enter a number"))
+b=[]
+for i in range(1,a):
+    if a%i==0:
+        b.append(i)
+        
+b1=sum(b)       
+print(b1)
+if b1>a:
+    print("yes Abundant Number")
+else:
+    print("no not a Abundant Number ")
+
